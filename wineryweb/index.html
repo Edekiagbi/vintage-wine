@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINTAGE | Fine Wines &amp; Cold-Pressed Juice</title>
+    <meta name="description" content="VINTAGE — fine wines from the cellar and premium cold-pressed juice for modern wellness. Curated collections, pressed fresh, delivered fast.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- ===== Navbar ===== -->
+    <header class="navbar">
+        <a href="index.html" class="brand">VINTAGE</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navLinks">
+            <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links" id="navLinks" aria-label="Primary">
+            <a href="index.html">Home</a>
+            <a href="index.html#shop">Shop</a>
+            <a href="index.html#collections">Collections</a>
+            <a href="investment.html">Investment</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <a href="cart.html" class="cart-link" aria-label="Shopping cart">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+            <span class="cart-count" id="cartCount">0</span>
+        </a>
+        <a href="investment.html" class="btn btn-primary btn-nav">
+            Order Now
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+    </header>
+
+    <main>
+
+        <!-- ===== Hero Product Image ===== -->
+        <section class="hero-product" aria-label="For every moment">
+            <div class="hero-product-bg" role="img" aria-label="Red wine bottles and glasses in warm candlelight"></div>
+            <div class="hero-glow" aria-hidden="true"></div>
+            <div class="hero-bubbles" id="heroBubbles" aria-hidden="true"></div>
+            <div class="hero-product-content">
+                <div class="hero-left reveal">
+                    <h1 class="hero-overline">For Every<br>Moment.</h1>
+                    <p class="hero-copy">From sunrise stretches to late-night refuels, VINTAGE keeps twelve cold-pressed blends pressed fresh every single morning.</p>
+                    <a href="#shop" class="btn btn-primary">
+                        Order Now
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                    </a>
+                    <div class="hero-pills">
+                        <span class="pill pill-dark">Apple</span>
+                        <span class="pill pill-dark">Watermelon</span>
+                        <span class="pill pill-dark">Melon</span>
+                        <span class="pill pill-dark">Berry</span>
+                        <span class="pill pill-dark">Orange</span>
+                    </div>
+                </div>
+                <div class="hero-product-wrap reveal">
+                    <div class="bottle3d" id="bottle3d">
+                        <div class="bottle3d-inner">
+                            <img class="hero-bottle" src="images/win2.jpg" alt="VINTAGE bottle of fine red wine">
+                            <span class="bottle-glare" aria-hidden="true"></span>
+                        </div>
+                    </div>
+                    <div class="bottle-shadow" aria-hidden="true"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Brand Logo Strip ===== -->
+        <section class="logo-strip" aria-label="Trusted by brands">
+            <div class="container">
+                <p class="logo-strip-label">Featured in healthy-living stores &amp; cafés</p>
+                <ul class="logo-row">
+                    <li>NECTRA</li>
+                    <li>PurePress</li>
+                    <li>BLOOM+BIRCH</li>
+                    <li>tropiqa</li>
+                    <li>FRUITLAND</li>
+                    <li>natûrly</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== Crafted For Modern Wellness ===== -->
+        <section class="wellness section-pad" id="about">
+            <div class="container">
+                <div class="section-heading reveal">
+                    <span class="eyebrow">Our Rituals</span>
+                    <h2>Crafted For Modern Wellness</h2>
+                </div>
+                <div class="wellness-grid">
+                    <div class="wellness-left">
+                        <p class="lead reveal">Every bottle begins at the farm before sunrise — ripe fruit pressed within hours, never from concentrate, never with added sugar.</p>
+                        <figure class="wellness-fruit reveal">
+                            <img src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=900&q=80" alt="Colorful fresh berries and fruit">
+                            <div class="benefit-pills">
+                                <span class="pill"><i class="dot dot-gold"></i>No Sugar</span>
+                                <span class="pill"><i class="dot dot-orange"></i>High Quality Fruits</span>
+                                <span class="pill"><i class="dot dot-gold"></i>Always Fresh</span>
+                                <span class="pill"><i class="dot dot-orange"></i>Balanced Flavors</span>
+                            </div>
+                        </figure>
+                    </div>
+                    <div class="wellness-right">
+                        <div class="stat-6in1 reveal">
+                            <span class="stat-num">6<span>in 1</span></span>
+                            <p>Six super-fruits pressed into a single bottle — naturally sweet, naturally balanced.</p>
+                        </div>
+                        <p class="wellness-copy reveal">A quiet ritual, bottled. Whole-fruit nutrition designed to fit the pace of modern life without the shortcuts.</p>
+                        <figure class="wellness-img reveal">
+                            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=80" alt="Woman enjoying a calm wellness moment">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Featured Flavors ===== -->
+        <section class="flavors section-pad" id="shop">
+            <div class="container">
+                <div class="section-heading center reveal">
+                    <span class="eyebrow">The Lineup</span>
+                    <h2>Featured Flavors</h2>
+                    <p class="muted">Cold-pressed juices served each morning, plus a curated shelf of wines from the cellar.</p>
+                </div>
+
+                <div class="flavors-carousel reveal">
+                    <div class="flavors-viewport" id="flavorsViewport">
+                        <div class="flavors-track" id="flavorsTrack">
+                            <!-- Strawberry -->
+                            <article class="product-card">
+                                <div class="product-media" style="--tint:#F6DDD6;">
+                                    <img src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=600&q=80" alt="Strawberry juice">
+                                    <span class="product-badge" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                                    </span>
+                                </div>
+                                <div class="product-body">
+                                    <div class="product-tags"><span class="tag">No Sugar</span><span class="tag">Antioxidant</span></div>
+                                    <h3>Strawberry</h3>
+                                    <p>Sweet ripe berries pressed with a whisper of mint.</p>
+                                </div>
+                                <div class="product-foot">
+                                    <span class="price">$60.00</span>
+                                    <a href="cart.html" class="btn-icon add-to-cart"
+                                        data-name="Strawberry" data-flavor="No Sugar Blend" data-price="60" data-image="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=400&q=80"
+                                        aria-label="Add Strawberry to cart">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                    </a>
+                                </div>
+                            </article>
+                            <!-- Mango -->
+                            <article class="product-card">
+                                <div class="product-media" style="--tint:#FAEBD3;">
+                                    <img src="https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=600&q=80" alt="Mango juice">
+                                    <span class="product-badge" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                                    </span>
+                                </div>
+                                <div class="product-body">
+                                    <div class="product-tags"><span class="tag">Vitamin C</span><span class="tag">No Sugar</span></div>
+                                    <h3>Mango</h3>
+                                    <p>Golden mango with a bright, tropical finish.</p>
+                                </div>
+                                <div class="product-foot">
+                                    <span class="price">$60.00</span>
+                                    <a href="cart.html" class="btn-icon add-to-cart"
+                                        data-name="Mango" data-flavor="Tropical Blend" data-price="60" data-image="https://images.unsplash.com/photo-1553279768-865429fa0078?auto=format&fit=crop&w=400&q=80"
+                                        aria-label="Add Mango to cart">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                    </a>
+                                </div>
+                            </article>
+                            <!-- Watermelon -->
+                            <article class="product-card">
+                                <div class="product-media" style="--tint:#E9EDE0;">
+                                    <img src="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=600&q=80" alt="Watermelon juice">
+                                    <span class="product-badge" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                                    </span>
+                                </div>
+                                <div class="product-body">
+                                    <div class="product-tags"><span class="tag">Hydration</span><span class="tag">Refreshing</span></div>
+                                    <h3>Watermelon</h3>
+                                    <p>Chilled melon pressed for deep, easy hydration.</p>
+                                </div>
+                                <div class="product-foot">
+                                    <span class="price">$60.00</span>
+                                    <a href="cart.html" class="btn-icon add-to-cart"
+                                        data-name="Watermelon" data-flavor="Hydration Blend" data-price="60" data-image="https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=400&q=80"
+                                        aria-label="Add Watermelon to cart">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                    </a>
+                                </div>
+                            </article>
+                            <!-- Orange -->
+                            <article class="product-card">
+                                <div class="product-media" style="--tint:#FBEBDE;">
+                                    <img src="https://images.unsplash.com/photo-1610970881699-44a5587cabec?auto=format&fit=crop&w=600&q=80" alt="Orange juice">
+                                    <span class="product-badge" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                                    </span>
+                                </div>
+                                <div class="product-body">
+                                    <div class="product-tags"><span class="tag">Vitamin C</span><span class="tag">Balanced</span></div>
+                                    <h3>Orange</h3>
+                                    <p>Sun-ripened oranges, cold-pressed bright.</p>
+                                </div>
+                                <div class="product-foot">
+                                    <span class="price">$60.00</span>
+                                    <a href="cart.html" class="btn-icon add-to-cart"
+                                        data-name="Orange" data-flavor="Classic Citrus" data-price="60" data-image="https://images.unsplash.com/photo-1610970881699-44a5587cabec?auto=format&fit=crop&w=400&q=80"
+                                        aria-label="Add Orange to cart">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                    </a>
+                                </div>
+                            </article>
+                            <!-- Côtes de Provence Rosé -->
+                            <article class="product-card">
+                                <div class="product-media" style="--tint:#FCE3E3;">
+                                    <img src="images/win3.jpg" alt="Côtes de Provence Rosé wine">
+                                    <span class="product-badge" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                                    </span>
+                                </div>
+                                <div class="product-body">
+                                    <div class="product-tags"><span class="tag">Rosés</span><span class="tag">Provence · 2022</span></div>
+                                    <h3>Côtes de Provence</h3>
+                                    <p>Pale salmon, wild strawberry and a dry stone-fruit elegance.</p>
+                                </div>
+                                <div class="product-foot">
+                                    <span class="price">$56.00</span>
+                                    <a href="cart.html" class="btn-icon add-to-cart"
+                                        data-name="Côtes de Provence Rosé" data-flavor="Rosés · Provence 2022" data-price="56" data-image="images/win3.jpg"
+                                        aria-label="Add Côtes de Provence Rosé to cart">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                    </a>
+                                </div>
+                            </article>
+                            <!-- Champagne Brut Réserve -->
+                            <article class="product-card">
+                                <div class="product-media" style="--tint:#F1E7CF;">
+                                    <img src="images/wine5.jpg" alt="Champagne Brut Réserve">
+                                    <span class="product-badge" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                                    </span>
+                                </div>
+                                <div class="product-body">
+                                    <div class="product-tags"><span class="tag">Sparkling</span><span class="tag">Épernay · NV</span></div>
+                                    <h3>Champagne Brut Réserve</h3>
+                                    <p>Brioche, green apple and a fine, persistent mousse.</p>
+                                </div>
+                                <div class="product-foot">
+                                    <span class="price">$120.00</span>
+                                    <a href="cart.html" class="btn-icon add-to-cart"
+                                        data-name="Champagne Brut Réserve" data-flavor="Sparkling · Épernay NV" data-price="120" data-image="images/wine5.jpg"
+                                        aria-label="Add Champagne Brut Réserve to cart">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                    </a>
+                                </div>
+                            </article>
+                            <!-- Prosecco DOC -->
+                            <article class="product-card">
+                                <div class="product-media" style="--tint:#F4EAD2;">
+                                    <img src="images/win6.webp" alt="Prosecco DOC wine">
+                                    <span class="product-badge" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                                    </span>
+                                </div>
+                                <div class="product-body">
+                                    <div class="product-tags"><span class="tag">Sparkling</span><span class="tag">Veneto · NV</span></div>
+                                    <h3>Prosecco DOC</h3>
+                                    <p>White blossom, pear and a playful, crowd-pleasing fizz.</p>
+                                </div>
+                                <div class="product-foot">
+                                    <span class="price">$70.00</span>
+                                    <a href="cart.html" class="btn-icon add-to-cart"
+                                        data-name="Prosecco DOC" data-flavor="Sparkling · Veneto NV" data-price="70" data-image="images/win6.webp"
+                                        aria-label="Add Prosecco DOC to cart">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                    </a>
+                                </div>
+                            </article>
+                            <!-- Cabernet Reserve -->
+                            <article class="product-card">
+                                <div class="product-media" style="--tint:#F0D5CE;">
+                                    <img src="images/wine4.jpg" alt="Cabernet Reserve wine">
+                                    <span class="product-badge" aria-hidden="true">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                                    </span>
+                                </div>
+                                <div class="product-body">
+                                    <div class="product-tags"><span class="tag">Reds</span><span class="tag">Napa Valley · 2020</span></div>
+                                    <h3>Cabernet Reserve</h3>
+                                    <p>Dark berry, cocoa and a long oak finish from the valley floor.</p>
+                                </div>
+                                <div class="product-foot">
+                                    <span class="price">$74.00</span>
+                                    <a href="cart.html" class="btn-icon add-to-cart"
+                                        data-name="Cabernet Reserve" data-flavor="Reds · Napa Valley 2020" data-price="74" data-image="images/wine4.jpg"
+                                        aria-label="Add Cabernet Reserve to cart">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev" id="flavorsPrev" aria-label="Previous flavors">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>
+                        </button>
+                        <button class="carousel-btn next" id="flavorsNext" aria-label="Next flavors">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Featured Promotional Split ===== -->
+        <section class="promo section-pad" id="subscription">
+            <div class="container">
+                <div class="promo-grid">
+                    <div class="promo-photo reveal" role="img" aria-label="Strawberry juice splashing with fresh fruit">
+                        <div class="promo-photo-caption">
+                            <span class="pill pill-gold">Limited Run</span>
+                            <span>Strawberry Fresh-Burst</span>
+                        </div>
+                    </div>
+                    <div class="promo-panel reveal">
+                        <span class="eyebrow">The Favorite</span>
+                        <h2>Our Best Juice</h2>
+                        <p class="promo-copy">Whole strawberries, a squeeze of lime, and a breath of mint — pressed cold and finished the same day.</p>
+                        <div class="promo-price">
+                            <strong>Strawberry Fresh-Burst</strong>
+                            <span class="price-big">$40.00</span>
+                        </div>
+                        <svg class="promo-arrow" viewBox="0 0 140 110" aria-hidden="true">
+                            <path d="M18 92 C 62 104, 104 82, 110 28" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 9"/>
+                            <path d="M108 16 124 22l-14 12z" fill="currentColor"/>
+                        </svg>
+                        <div class="promo-offer-card">
+                            <p><strong>Save 40%</strong> On Your Order Today</p>
+                            <a href="#shop" class="btn btn-primary">
+                                Order Now
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Wine Collections ===== -->
+        <section class="wine-collections section-pad" id="collections">
+            <div class="container">
+                <div class="section-heading center reveal">
+                    <span class="eyebrow">Wine Collections</span>
+                    <h2>Curated by the Cellar</h2>
+                    <p class="muted">Browse the vintage library — reds, whites, rosés, sparklings and late harvests.</p>
+                </div>
+
+                <div class="wine-tabs reveal" role="tablist" aria-label="Wine collections">
+                    <button type="button" class="is-active" data-category="all">All Wines</button>
+                    <button type="button" data-category="reds">Reds</button>
+                    <button type="button" data-category="whites">Whites</button>
+                    <button type="button" data-category="roses">Rosés</button>
+                    <button type="button" data-category="sparkling">Sparkling</button>
+                    <button type="button" data-category="dessert">Dessert</button>
+                </div>
+
+                <div class="wine-grid reveal" id="wineGrid">
+
+                    <!-- Reds -->
+                    <article class="product-card wine-card" data-category="reds">
+                        <div class="product-media" style="--tint:#F4DCD6;">
+                            <img src="images/wine7.jpg" alt="Barolo Riserva wine">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Reds</span><span class="tag">Piemonte · 2019</span></div>
+                            <h3>Barolo Riserva</h3>
+                            <p>Nebbiolo aged 36 months in oak — rose, tar and crushed cherry.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$88.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Barolo Riserva" data-flavor="Reds · Piemonte 2019" data-price="88" data-image="images/wine7.jpg"
+                                aria-label="Add Barolo Riserva to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card wine-card" data-category="reds">
+                        <div class="product-media" style="--tint:#F0D5CE;">
+                            <img src="images/wine4.jpg" alt="Cabernet Sauvignon Reserve wine">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Reds</span><span class="tag">Napa Valley · 2020</span></div>
+                            <h3>Cabernet Reserve</h3>
+                            <p>Dark berry, cocoa and a long oak finish from the valley floor.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$74.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Cabernet Reserve" data-flavor="Reds · Napa Valley 2020" data-price="74" data-image="images/wine4.jpg"
+                                aria-label="Add Cabernet Reserve to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card wine-card" data-category="reds">
+                        <div class="product-media" style="--tint:#F3D8D3;">
+                            <img src="images/wine7.jpg" alt="Pinot Noir wine">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Reds</span><span class="tag">Willamette · 2021</span></div>
+                            <h3>Pinot Noir</h3>
+                            <p>Structured, silky and bright — raspberry with a whisper of earth.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$64.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Pinot Noir" data-flavor="Reds · Willamette 2021" data-price="64" data-image="images/wine7.jpg"
+                                aria-label="Add Pinot Noir to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Whites -->
+                    <article class="product-card wine-card" data-category="whites">
+                        <div class="product-media" style="--tint:#FAEFD9;">
+                            <img src="images/win6.webp" alt="Oak Chardonnay wine">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Whites</span><span class="tag">California · 2021</span></div>
+                            <h3>Oak Chardonnay</h3>
+                            <p>Butter, white peach and a gentle barrel cream that stays fresh.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$58.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Oak Chardonnay" data-flavor="Whites · California 2021" data-price="58" data-image="images/win6.webp"
+                                aria-label="Add Oak Chardonnay to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card wine-card" data-category="whites">
+                        <div class="product-media" style="--tint:#F2EDDA;">
+                            <img src="images/win6.webp" alt="Sauvignon Blanc wine">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Whites</span><span class="tag">Marlborough · 2022</span></div>
+                            <h3>Sauvignon Blanc</h3>
+                            <p>Gooseberry, lime zest and a brisk, clean southern finish.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$52.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Sauvignon Blanc" data-flavor="Whites · Marlborough 2022" data-price="52" data-image="images/win6.webp"
+                                aria-label="Add Sauvignon Blanc to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Rosés -->
+                    <article class="product-card wine-card" data-category="roses">
+                        <div class="product-media" style="--tint:#FCE3E3;">
+                            <img src="images/win3.jpg" alt="Côtes de Provence Rosé wine">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Rosés</span><span class="tag">Provence · 2022</span></div>
+                            <h3>Côtes de Provence</h3>
+                            <p>Pale salmon, wild strawberry and a dry stone-fruit elegance.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$56.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Côtes de Provence Rosé" data-flavor="Rosés · Provence 2022" data-price="56" data-image="images/win3.jpg"
+                                aria-label="Add Côtes de Provence Rosé to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card wine-card" data-category="roses">
+                        <div class="product-media" style="--tint:#F9DFE4;">
+                            <img src="images/image1.avif" alt="Rosé Brut wine">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Rosés</span><span class="tag">Rhône · NV</span></div>
+                            <h3>Rosé Brut</h3>
+                            <p>Red berry, toast and a delicate pearl of fine bubbles.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$60.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Rosé Brut" data-flavor="Rosés · Rhône NV" data-price="60" data-image="images/image1.avif"
+                                aria-label="Add Rosé Brut to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Sparkling -->
+                    <article class="product-card wine-card" data-category="sparkling">
+                        <div class="product-media" style="--tint:#F1E7CF;">
+                            <img src="images/wine5.jpg" alt="Champagne Brut Réserve">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Sparkling</span><span class="tag">Épernay · NV</span></div>
+                            <h3>Champagne Brut Réserve</h3>
+                            <p>Brioche, green apple and a fine, persistent mousse.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$120.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Champagne Brut Réserve" data-flavor="Sparkling · Épernay NV" data-price="120" data-image="images/wine5.jpg"
+                                aria-label="Add Champagne Brut Réserve to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card wine-card" data-category="sparkling">
+                        <div class="product-media" style="--tint:#F4EAD2;">
+                            <img src="images/win6.webp" alt="Prosecco DOC wine">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Sparkling</span><span class="tag">Veneto · NV</span></div>
+                            <h3>Prosecco DOC</h3>
+                            <p>White blossom, pear and a playful, crowd-pleasing fizz.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$70.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Prosecco DOC" data-flavor="Sparkling · Veneto NV" data-price="70" data-image="images/win6.webp"
+                                aria-label="Add Prosecco DOC to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Dessert -->
+                    <article class="product-card wine-card" data-category="dessert">
+                        <div class="product-media" style="--tint:#F6E2CF;">
+                            <img src="images/wine5.jpg" alt="Riesling Icewine">
+                            <span class="product-badge" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+                            </span>
+                        </div>
+                        <div class="product-body">
+                            <div class="product-tags"><span class="tag">Dessert</span><span class="tag">Niagara · 2021</span></div>
+                            <h3>Riesling Icewine</h3>
+                            <p>Honey, apricot and electric acidity from frozen grapes.</p>
+                        </div>
+                        <div class="product-foot">
+                            <span class="price">$95.00</span>
+                            <a href="cart.html" class="btn-icon add-to-cart"
+                                data-name="Riesling Icewine" data-flavor="Dessert · Niagara 2021" data-price="95" data-image="images/wine5.jpg"
+                                aria-label="Add Riesling Icewine to cart">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Fruit / Product Story ===== -->
+        <section class="story section-pad">
+            <div class="container">
+                <div class="story-grid">
+                    <figure class="story-img reveal">
+                        <img src="images/image1.avif" alt="VINTAGE bottles surrounded by fresh fruit">
+                    </figure>
+                    <div class="story-copy">
+                        <span class="eyebrow">The Story</span>
+                        <h2>Most Popular Choices</h2>
+                        <p>Real fruit, pressed the same day it's picked — slowly and at low temperature, so vitamins, minerals and flavor stay exactly where they belong.</p>
+                        <div class="feature-blocks">
+                            <div class="feature-block">
+                                <span class="feature-icon icon-maroon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.8 10C21.9 12.3 19.9 14 17.5 14c-2.5 0-4-1.9-4.5-4"/><path d="M3 3l18 18"/><path d="M9 5.5A6 6 0 0 1 14 4c.5 1 .8 2 .8 3.2"/><path d="M5.5 9A5.5 5.5 0 0 1 8.5 5"/><path d="M14 9c0 3.9-2.6 7-6 7"/></svg>
+                                </span>
+                                <div>
+                                    <h3>Easy-to-drink</h3>
+                                    <p>Smooth, pulp-gentle textures that slide down beautifully.</p>
+                                </div>
+                            </div>
+                            <div class="feature-block">
+                                <span class="feature-icon icon-orange">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2.7s9 6 9 12a9 9 0 0 1-18 0c0-6 9-12 9-12Z"/><path d="M12 11a3.2 3.2 0 0 1 3.2 3.2"/></svg>
+                                </span>
+                                <div>
+                                    <h3>Smooth &amp; Refreshing</h3>
+                                    <p>Bright, balanced flavor profiles that taste like real fruit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col footer-brand">
+                    <a href="index.html" class="footer-brand-name">VINTAGE</a>
+                    <p>Premium cold-pressed juice for modern wellness. Fresh fruit, no added sugar, pressed every morning.</p>
+                    <ul class="footer-social">
+                        <li><a href="#" aria-label="VINTAGE on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></a></li>
+                        <li><a href="#" aria-label="VINTAGE on Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a></li>
+                        <li><a href="#" aria-label="VINTAGE on X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16"/><path d="M20 4L4 20"/></svg></a></li>
+                        <li><a href="#" aria-label="VINTAGE on YouTube"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg></a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#shop">Shop</a></li>
+                        <li><a href="index.html#collections">Collections</a></li>
+                        <li><a href="investment.html">Investment</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help &amp; Info</h4>
+                    <ul class="footer-links">
+                        <li><a href="cart.html">All Products</a></li>
+                        <li><a href="contact.html">FAQ</a></li>
+                        <li><a href="services.html">Shipping</a></li>
+                        <li><a href="services.html">Returns</a></li>
+                        <li><a href="cart.html">Track Order</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-news">
+                    <h4>Sign Up Our Newsletters</h4>
+                    <p>Fresh flavor drops, seasonal blends and subscriber-only offers.</p>
+                    <form class="newsletter-form" id="newsletterForm" novalidate>
+                        <label class="sr-only" for="newsletterEmail">Email address</label>
+                        <div class="newsletter-row">
+                            <span class="mail-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span>
+                            <input type="email" id="newsletterEmail" name="email" placeholder="Your email address" autocomplete="email">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-subscribe">
+                            Subscribe Now
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                        </button>
+                        <p class="newsletter-success" id="newsletterSuccess" role="status">Thanks for subscribing — welcome to the club.</p>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-divider" role="separator"></div>
+
+            <div class="footer-bottom">
+                <p>© 2026 VINTAGE Press Co. All rights reserved.</p>
+                <p>Crafted with fresh fruit &amp; a lot of love.</p>
+            </div>
+
+            <div class="footer-wordmark" aria-hidden="true">VINTAGE</div>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">Added to cart</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
